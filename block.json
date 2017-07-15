@@ -1,0 +1,32 @@
+{
+    "_key_id": 244585,
+    "_id": 4191,
+    "name": "Cloudinary",
+    "description": "for React demo",
+    "event_handlers": [
+        {
+            "_id": 3924,
+            "name": "cloudinary-test",
+            "event": "js-before-publish",
+            "channels": "cloudinary-test",
+            "file": "js-before-publish/cloudinary-test.js",
+            "output": "blocks-output-qQ2JenUqThjErlmlmvCC.26345694702916677"
+        },
+        {
+            "_id": 5088,
+            "name": "parseText",
+            "event": "js-before-publish",
+            "channels": "parse-text",
+            "file": "js-before-publish/parseText.js",
+            "output": "blocks-output-qQ2JenUqThjErlmlmvCC.7409436177985751"
+        },
+        {
+            "_id": 5089,
+            "name": "makeURL",
+            "event": "js-before-publish",
+            "channels": "make-url",
+            "file": "js-before-publish/makeURL.js",
+            "output": "blocks-output-qQ2JenUqThjErlmlmvCC.25914270486585124"
+        }
+    ]
+}

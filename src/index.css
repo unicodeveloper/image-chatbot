@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 120%;
+}
+button, input {
+  font-size: 1em;
+}
+
+.hbox {
+  display: flex;
+  flex-direction: row;
+}
+.vbox {
+  display: flex;
+  flex-direction: column;
+}
+.grow {
+  flex: 1;
+}
+.scroll {
+  overflow: scroll;
+}
+.fill {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 0px solid red;
+}
+
+
+li {
+  background-color: #eeffff;
+}
+li.error {
+  background-color: #ffcccc;
+}
+
+ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+li {
+  border: 0px solid red;
+  padding: 0.25em 0.5em;
+  margin: 0.5em;
+}
